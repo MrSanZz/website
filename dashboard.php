@@ -619,7 +619,7 @@ ob_end_flush();
             </form>
             <!-- Create Folder -->
             <form method="post" action="?action=create_folder&path=<?php echo urlencode($path); ?>">
-                <input type="text" name="folder_name" placeholder="New">
+                <input type="text" name="folder_name" placeholder="New Folder">
                 <input type="submit" value="Create Folder">
             </form>
             <!-- Create File -->
